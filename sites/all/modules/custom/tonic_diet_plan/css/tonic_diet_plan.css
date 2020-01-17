@@ -1,0 +1,257 @@
+.tonic-diet-plan-header {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    background-color: #FED100;
+}
+
+.tonic-diet-plan-header .tonic-diet-plan-header-content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tonic-diet-plan-note-book img {
+    position: absolute;
+    top: 120px;
+    left: -50px;
+}
+
+.tonic-diet-plan-note-meal img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.tonic-logo img {
+    margin-top: 30px;
+}
+
+.tonic-diet-plan-link {
+    font-weight: bold;
+
+}
+
+.tonic-diet-plan-link img {
+    margin-top: 43px;
+}
+
+.tonic-diet-plan-link a.btn-tonic-diet-plan-link {
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 450px;
+    padding: 15px;
+}
+
+
+.tonic-diet-plan-email-form {
+    background-color: #F9F9FA;
+    position: relative;
+    height: 200px;
+}
+
+.tonic-diet-plan-email-form .diet-send-me-email-form {
+    position: absolute;
+    width: 450px;
+    height: 162px;
+    padding: 15px 10px;
+    z-index: 100;
+    top: -50px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    /*left: 34.25%;*/
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.diet-send-me-email-form input.error {
+    border: 1px solid #FF5868 !important;
+}
+
+.tonic-diet-plan-email-form label {
+    font-size: 22px;
+}
+
+.find-doctor-search-group .form-control {
+    width: auto;
+    display: inline-block;
+
+}
+
+.btn-tonic-diet-email-send {
+    background-color: #ffffff !important;
+    border: 1px solid #0097DB !important;;
+    box-sizing: border-box;
+    border-radius: 3px !important;;
+    color: #0097DB !important;
+    padding: 11px 23px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+
+}
+
+#diet-plan-email {
+    background: url(../images/email-icon.png) 11px 13px no-repeat;
+    background-size: 20px 17px;
+    padding-left: 45px;
+}
+
+.tonic-diet-plan-footer-first {
+    background-color: #F1F1F1;
+    height: 165px;
+    padding: 40px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.tonic-diet-plan-footer-first .pull-left, .pull-left .menu {
+    text-align: right;
+}
+
+.tonic-diet-plan-footer-first .pull-left {
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+    padding-right: 50px;
+}
+
+.tonic-diet-plan-footer-first .pull-right {
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+.tonic-diet-plan-footer-second {
+    background-color: #E3E3E3;
+    padding-bottom: 15px;
+}
+
+.tonic-diet-plan-footer-first .play-store-btn a  {
+    padding: 0px 30px 18px;
+}
+
+/* Diet plan tracking */
+#diet-plan-tracking-form .input-group {
+    margin-bottom: 10px;
+}
+
+#diet-plan-tracking-form .input-group.date {
+    padding: 0px !important;
+    width: 40%;
+}
+
+.page-diet-plan-tracking .profile-plan-alert {
+    padding: 0;
+    max-width: 457px;
+    margin: 0 14px;
+}
+
+
+/* For mobile */
+
+.tonic-diet-plan-header .die-regular-view.small-device {
+    display: none;
+}
+
+.tonic-diet-plan-footer-first.small-device {
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+    .tonic-diet-plan-header .die-regular-view {
+        display: none;
+    }
+
+    .tonic-diet-plan-header .die-regular-view.small-device {
+        display: block;
+    }
+
+    .tonic-logo img {
+        margin-top: 25px;
+        width: 40%;
+    }
+
+    .tonic-diet-plan-note-book img {
+        top: 0px;
+        left: 0px;
+    }
+
+    .tonic-diet-plan-link img {
+        margin-top: 35px;
+    }
+
+    .tonic-diet-plan-link a.btn-tonic-diet-plan-link {
+        width: 95.7%;
+    }
+
+    .tonic-diet-plan-header {
+        height: 320px;
+    }
+
+    .tonic-diet-plan-email-form {
+        height: 140px;
+    }
+
+    .tonic-diet-plan-email-form .diet-send-me-email-form {
+        /*width: 346px;*/
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: -30px;
+        margin: 0 auto;
+    }
+
+    .tonic-diet-plan-footer-first {
+        display: none;
+    }
+    .tonic-diet-plan-footer-first.small-device {
+        display: block;
+        height: 230px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .tonic-diet-plan-footer-first.small-device .first-row {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        padding-bottom: 15px;
+    }
+
+    .tonic-diet-plan-footer-first.small-device .second-row {
+        padding: 20px 0px;
+    }
+
+    .tonic-diet-plan-footer-second {
+        padding-top: 20px;
+    }
+
+    .tonic-diet-plan-footer-first.small-device ul.menu {
+        position: relative;
+        left: 50%;
+        margin-left: -70px;
+    }
+
+    .tonic-diet-plan-footer-first.small-device li.play-store-btn {
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .tonic-diet-plan-note-meal img {
+        width: 200px;
+    }
+
+    .tonic-diet-plan-note-book img {
+        width: 200px;
+        left: -50px;
+        bottom: -97px;
+        top: auto;
+    }
+
+    .tonic-diet-plan-email-form .diet-send-me-email-form {
+        left: 4%;
+        right: 4%;
+        margin: 0 auto;
+    }
+}

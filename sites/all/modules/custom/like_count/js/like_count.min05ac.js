@@ -1,0 +1,1 @@
+!function(t){t(".like-count-widget").click(function(){var a=t(this).attr("data-node"),n=t(this).attr("data-lang"),i=t(".rate-info").attr("data-like-num");t.ajax({url:"/like-count",type:"POST",data:{entity_id:a,lang:n,current_like:i},success:function(a){t(".rate-info").text(a)}})})}(jQuery);

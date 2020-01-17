@@ -1,0 +1,1 @@
+!function(t){t("#myButton").on("click",function(){t(this).button("loading").button("reset")}),t("#follow-channel").click(function(){var n=(t(this).button("following..."),t(this).attr("data-tax-id"));t.ajax({url:"/follow-this-channel",type:"POST",data:{tax_id:n},success:function(n){"done"==n&&t("#follow-channel").attr("disabled",!0)}})})}(jQuery);
